@@ -1,3 +1,4 @@
 sequelize/seeders/
 sequelize/node_modules/
 mongoose/node_modules/
+passport/node_modules/
