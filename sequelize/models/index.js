@@ -10,7 +10,7 @@ const sequelize = new Sequelize(config.database, config.username, config.passwor
 db.sequelize = sequelize;
 
 db.User = User;
-db.Comment = Comment;
+db.Comment = Comment;   
 
 User.init(sequelize);
 Comment.init(sequelize);

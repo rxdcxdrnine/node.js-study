@@ -8,6 +8,8 @@
   "author": "rxdcxdrnine",
   "license": "MIT",
   "dependencies": {
+    "chokidar": "^3.5.1",
+    "express": "^4.17.1",
     "mongoose": "^5.12.0",
     "morgan": "^1.10.0",
     "nunjucks": "^3.2.3"

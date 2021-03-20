@@ -4,8 +4,8 @@ const connect = () => {
   if (process.env.NODE_ENV !== "production") {
     mongoose.set("debug", true);
   }
-  mongoose.connect("mongodb://changgu:aafc@localhost:27107/admin", {
-    dbName: "node.js",
+  mongoose.connect("mongodb://changgu:mongo@localhost:27017/admin", {
+    dbName: "nodejs",
     useNewUrlParser: true,
     useCreateIndex: true,
   }, (error) => {
